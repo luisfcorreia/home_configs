@@ -1,0 +1,47 @@
+esphome:
+  name: wc-fan
+
+esp8266:
+  board: esp01
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Wc-Fan Fallback Hotspot"
+    password: "4reXKgfIVNpJ"
+
+captive_portal:
+    
+output:
+  - platform: gpio
+    pin: "GPIO0"
+    id: 'wc_fan_on1'
+  - platform: gpio
+    pin: "GPIO2"
+    id: 'wc_fan_on2'
+  - platform: gpio
+    pin: "GPIO3"
+    id: 'wc_fan_on3'
+switch:
+  - platform: output
+    name: "WCFan1"
+    output: 'wc_fan_on1'
+  - platform: output
+    name: "WCFan2"
+    output: 'wc_fan_on2'
+  - platform: output
+    name: "WCFan3"
+    output: 'wc_fan_on3'    

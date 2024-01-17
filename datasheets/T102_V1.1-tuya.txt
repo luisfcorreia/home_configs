@@ -1,0 +1,475 @@
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+<RTL8195A>RO<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0ð<RTL8195A>ROM:[V0.1]
+FLASHRATE:4<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:9:9][5:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW Oÿ<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+<RTL8195A>ROM:[Vø<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+<RTL8195A>ROM:[<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+ý<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+OSC8M: 8386568 
+boot reason: 0 
+System_Init2
+
+11111111111111111111111111
+interface 0 is initialized
+inô<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+OSC8M: 8390004 
+boot reason: 0 
+System_Init2
+
+11111111111111111111111111
+interface 0 is initialized
+interface 1 is initialized
+
+Initializing[01-01  WIFI ...18:12:15 TUY
+LDA Info][mqc_O Mode, BD_app.c:337] mInfo: 0 
+qc app init ...
+[01-01 18:12:15 TUYA Info][uni_thr
+LDO Modead.c:205] te, BD_Info:hread_create 0 
+ name:sys_timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:cmmod,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:5 cnt:1
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:31 cnt:2
+[01-01 18:12:15 TUYA Err][log_seq.c:849] log status is empty
+[01-01 18:12:15 TUYA Debug][svc_online_log.c:293] svc online log init success
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:wk_th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA Debug][tuya_device.c:206] < TUYA IOT SDK V:2.3.0 BS:40.00_PT:2.2_LAN:3.3_CAD:1.0.3_CD:1.0.0 >
+< BUILD AT:2020_11_17_17_23_55 BY embed FOR ty_iot_sdk AT rtl8710bn >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTLE_END:1 TLS_MODE:2 ENABLE_LOCAL_LINKAGE:0 ENABLE_CLOUD_OPERATION:0 ENABLE_SUBDEVICE:0 ENABLE_ENGINEER_TO_NORMAL:0 OPERATING_SYSTEM:2 ENABLE_SYS_RPC:0 TY_SECURITY_CHIP:0 RELIABLE_TRANSFER:RELIABLE_TRANSFER ENABLE_LAN_ENCRYPTION:1 ENABLE_LAN_LINKAGE:0 ENABLE_LAN_LINKAGE_MASTER:0 ENABLE_LAN_DEV:0 ENABLE_LAN_DEV_MASTER:0 >
+
+[01-01 18:12:15 TUYA Debug][tuya_device.c:207] oem_rtlbn_rnd_switch:1.1.1
+[01-01 18:12:15 TUYA Notice][tuya_device.c:208] firmware compiled at Jan 31 2021 22:17:44
+[01-01 18:12:15 TUYA Notice][simple_flash.c:408] key_addr: 0x1eb000   block_sz 4096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:497] get key:
+0x43 0xed 0xc7 0x14 0xe4 0xe5 0x0 0xa9 0xf6 0x81 0xe6 0x52 0xc5 0x3c 0xe6 0xf6 
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:mf_test,stackDepth:5120,totalstackDepth:18432,priority:4
+
+WIFI initialized
+
+init_thread(55), Available heap 0xe560[01-01 18:12:15 TUYA Notice][tuya_main.c:269] mf_init succ
+[01-01 18:12:15 TUYA Notice][tuya_device.c:119] pConfig = {"sw":{"init_cfg":{"value":39},"ch":[{"bt":{"pin":{"value":5},"lv":{"value":false}},"dpid":{"value":1},"cddpid":{"value":9},"rl":{"pin":{"value":14},"lv":{"value":true}}}],"c_dp":{"value":42},"tch":{"btkm":{"value":0},"dfm":{"value":1}},"c_lock":{"value":41},"dd_dp":{"value":44},"net":{"netnm":{"value":2},"reuse":{"value":true},"zsd_dp":{"value":40},"rsthold":{"value":5},"wfst":{"pin":{"value":0},"lv":{"value":false}},"owmm":{"value":1},"netym":{"value":1}},"r_dp":{"value":43}}}
+[01-01 18:12:15 TUYA Notice][json_config.c:1498] version is null,the json rule is old
+[01-01 18:12:15 TUYA Notice][json_config.c:1367] tled is null
+[01-01 18:12:15 TUYA Notice][json_config.c:489] led_mixed json is null!!
+[01-01 18:12:15 TUYA Notice][json_config.c:815] js_onoff is null
+[01-01 18:12:15 TUYA Notice][json_config.c:930] on_off_config_by_json is null!
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+Initializing WIFI ...
+LDO Mode, BD_Info: 0 
+
+LDO Mode, BD_Info: 0 
+
+WIFI initialized
+[01-01 18:12:16 TUYA Notice][tuya_main.c:204] current product ssid name:tuya_mdev_test1
+[WIFI NOTICE]not find scan ssid (tuya_mdev_test1)
+pmu_release_wakelock(PMU_OS);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4033] Last reset reason: 0
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:health_monitor,stackDepth:1536,totalstackDepth:19968,priority:5
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4162] serial_no:c482e1a76b2c
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4188] gw_cntl.gw_wsm.stat:1
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4192] gw_cntl.gw_wsm.nc_tp:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4193] gw_cntl.gw_wsm.md:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4251] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4252] gw_cntl.gw_if.product_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4253] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4255] gw_cntl.gw_if.firmware_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:17 TUYA Notice][memory_state.c:259] init cfg is null!!
+[01-01 18:12:17 TUYA Notice][led.c:86] light mode is null!!
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - relay[0]:	pin-14	type high
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - button[0]:	pin-5	type low
+[01-01 18:12:17 TUYA Notice][hw_table.c:67] trig_type:level
+[01-01 18:12:17 TUYA Notice][hw_table.c:72] CH[0],    DPID[1]
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - wifi_stat:	pin-0	type low
+[01-01 18:12:17 TUYA Notice][hw_table.c:87] trig_type:level
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:key_handle,stackDepth:2048,totalstackDepth:22016,priority:5
+[01-01 18:12:17 TUYA Notice][hw_ctrl.c:452] ch sec is null!!
+[01-01 18:12:17 TUYA Err][tuya_cd_timer.c:244] OPRT_INVALID_PARM
+[01-01 18:12:17 TUYA Notice][inch.c:213] cd_time doesn't run !!
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:timer_task,stackDepth:4096,totalstackDepth:26112,priority:3
+[01-01 18:12:17 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:17 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:17 TUYA Notice][inch.c:336] inch info is null! this maybe a new product!!
+[01-01 18:12:17 TUYA Notice][tuya_device.c:970] device_init ok  free_mem_size:63176
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+[rltk_wlan_rf_off] netif is DOWNReguTimer CalibData:1083 
+[01-01 18:12:18 TUYA Notice][tuya_device.c:684] wifi stat is 0 
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+OSC8M: 8383135 
+boot reason: 0 
+System_Init2
+
+11111111111111111111111111
+interface 0 is initialized
+interface 1 is initialized
+
+Initializing[01-01  WIFI ...18:12:15 TUY
+LDA Info][mqc_O Mode, BD_app.c:337] mInfo: 0 
+qc app init ...
+[01-01 18:12:15 TUYA Info][uni_thr
+LDO Modead.c:205] te, BD_Info:hread_create 0 
+ name:sys_timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:cmmod,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:5 cnt:1
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:31 cnt:2
+[01-01 18:12:15 TUYA Err][log_seq.c:849] log status is empty
+[01-01 18:12:15 TUYA Debug][svc_online_log.c:293] svc online log init success
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:wk_th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA Debug][tuya_device.c:206] < TUYA IOT SDK V:2.3.0 BS:40.00_PT:2.2_LAN:3.3_CAD:1.0.3_CD:1.0.0 >
+< BUILD AT:2020_11_17_17_23_55 BY embed FOR ty_iot_sdk AT rtl8710bn >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTLE_END:1 TLS_MODE:2 ENABLE_LOCAL_LINKAGE:0 ENABLE_CLOUD_OPERATION:0 ENABLE_SUBDEVICE:0 ENABLE_ENGINEER_TO_NORMAL:0 OPERATING_SYSTEM:2 ENABLE_SYS_RPC:0 TY_SECURITY_CHIP:0 RELIABLE_TRANSFER:RELIABLE_TRANSFER ENABLE_LAN_ENCRYPTION:1 ENABLE_LAN_LINKAGE:0 ENABLE_LAN_LINKAGE_MASTER:0 ENABLE_LAN_DEV:0 ENABLE_LAN_DEV_MASTER:0 >
+
+[01-01 18:12:15 TUYA Debug][tuya_device.c:207] oem_rtlbn_rnd_switch:1.1.1
+[01-01 18:12:15 TUYA Notice][tuya_device.c:208] firmware compiled at Jan 31 2021 22:17:44
+[01-01 18:12:15 TUYA Notice][simple_flash.c:408] key_addr: 0x1eb000   block_sz 4096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:497] get key:
+0x43 0xed 0xc7 0x14 0xe4 0xe5 0x0 0xa9 0xf6 0x81 0xe6 0x52 0xc5 0x3c 0xe6 0xf6 
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:mf_test,stackDepth:5120,totalstackDepth:18432,priority:4
+
+WIFI initialized
+
+init_thread(55), Available heap 0xe560[01-01 18:12:15 TUYA Notice][tuya_main.c:269] mf_init succ
+[01-01 18:12:15 TUYA Notice][tuya_device.c:119] pConfig = {"sw":{"init_cfg":{"value":39},"ch":[{"bt":{"pin":{"value":5},"lv":{"value":false}},"dpid":{"value":1},"cddpid":{"value":9},"rl":{"pin":{"value":14},"lv":{"value":true}}}],"c_dp":{"value":42},"tch":{"btkm":{"value":0},"dfm":{"value":1}},"c_lock":{"value":41},"dd_dp":{"value":44},"net":{"netnm":{"value":2},"reuse":{"value":true},"zsd_dp":{"value":40},"rsthold":{"value":5},"wfst":{"pin":{"value":0},"lv":{"value":false}},"owmm":{"value":1},"netym":{"value":1}},"r_dp":{"value":43}}}
+[01-01 18:12:15 TUYA Notice][json_config.c:1498] version is null,the json rule is old
+[01-01 18:12:15 TUYA Notice][json_config.c:1367] tled is null
+[01-01 18:12:15 TUYA Notice][json_config.c:489] led_mixed json is null!!
+[01-01 18:12:15 TUYA Notice][json_config.c:815] js_onoff is null
+[01-01 18:12:15 TUYA Notice][json_config.c:930] on_off_config_by_json is null!
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+Initializing WIFI ...
+LDO Mode, BD_Info: 0 
+
+LDO Mode, BD_Info: 0 
+
+WIFI initialized
+[01-01 18:12:16 TUYA Notice][tuya_main.c:204] current product ssid name:tuya_mdev_test1
+[WIFI NOTICE]not find scan ssid (tuya_mdev_test1)
+pmu_release_wakelock(PMU_OS);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4033] Last reset reason: 0
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:health_monitor,stackDepth:1536,totalstackDepth:19968,priority:5
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4162] serial_no:c482e1a76b2c
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4188] gw_cntl.gw_wsm.stat:1
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4192] gw_cntl.gw_wsm.nc_tp:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4193] gw_cntl.gw_wsm.md:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4251] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4252] gw_cntl.gw_if.product_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4253] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:17 TUYA Notice][gw_intf.c:4255] gw_cntl.gw_if.firmware_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:17 TUYA Notice][memory_state.c:259] init cfg is null!!
+[01-01 18:12:17 TUYA Notice][led.c:86] light mode is null!!
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - relay[0]:	pin-14	type high
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - button[0]:	pin-5	type low
+[01-01 18:12:17 TUYA Notice][hw_table.c:67] trig_type:level
+[01-01 18:12:17 TUYA Notice][hw_table.c:72] CH[0],    DPID[1]
+[01-01 18:12:17 TUYA Notice][hw_table.c:42] IO - wifi_stat:	pin-0	type low
+[01-01 18:12:17 TUYA Notice][hw_table.c:87] trig_type:level
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:key_handle,stackDepth:2048,totalstackDepth:22016,priority:5
+[01-01 18:12:17 TUYA Notice][hw_ctrl.c:452] ch sec is null!!
+[01-01 18:12:17 TUYA Err][tuya_cd_timer.c:244] OPRT_INVALID_PARM
+[01-01 18:12:17 TUYA Notice][inch.c:213] cd_time doesn't run !!
+[01-01 18:12:17 TUYA Info][uni_thread.c:205] thread_create name:timer_task,stackDepth:4096,totalstackDepth:26112,priority:3
+[01-01 18:12:17 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:17 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:17 TUYA Notice][inch.c:336] inch info is null! this maybe a new product!!
+[01-01 18:12:17 TUYA Notice][tuya_device.c:970] device_init ok  free_mem_size:63176
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+[rltk_wlan_rf_off] netif is DOWNReguTimer CalibData:10a3 
+[01-01 18:12:18 TUYA Notice][tuya_device.c:684] wifi stat is 0 
+[01-01 18:12:22 TUYA Notice][tuya_device.c:986] wifi_stat = 0
+[01-01 18:12:28 TUYA Notice][tuya_device.c:986] wifi_stat = 0
+[01-01 18:12:33 TUYA Notice][tuya_device.c:986] wifi_stat = 0
+[01-01 18:12:38 TUYA Notice][tuya_device.c:986] wifi_stat = 0
+[01-01 18:12:38 TUYA Notice][tuya_key.c:440] get key interrupt
+pmu_acquire_wakelock(PMU_DEV_USER_BASE);
+[01-01 18:12:43 TUYA Notice][tuya_device.c:986] wifi_stat = 0
+tuya_hal_system_reset
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:3, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80ae2c0:5908:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x800b17d]
+===== Enter Image 2 ====
+System_Init1
+OSC8M: 8390004 
+boot reason: 4605 
+System_Init2
+
+11111111111111111111111111
+interface 0 is initialized
+interface 1 is initialized
+
+Initializing[01-01  WIFI ...18:12:15 TUY
+LDA Info][mqc_O Mode, BD_app.c:337] mInfo: 0 
+qc app init ...
+[01-01 18:12:15 TUYA Info][uni_thr
+LDO Modead.c:205] te, BD_Info:hread_create 0 
+ name:sys_timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:cmmod,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:5 cnt:1
+[01-01 18:12:15 TUYA Debug][mqc_app.c:148] mq_pro:31 cnt:2
+[01-01 18:12:15 TUYA Err][log_seq.c:849] log status is empty
+[01-01 18:12:15 TUYA Debug][svc_online_log.c:293] svc online log init success
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:wk_th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA Debug][tuya_device.c:206] < TUYA IOT SDK V:2.3.0 BS:40.00_PT:2.2_LAN:3.3_CAD:1.0.3_CD:1.0.0 >
+< BUILD AT:2020_11_17_17_23_55 BY embed FOR ty_iot_sdk AT rtl8710bn >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTLE_END:1 TLS_MODE:2 ENABLE_LOCAL_LINKAGE:0 ENABLE_CLOUD_OPERATION:0 ENABLE_SUBDEVICE:0 ENABLE_ENGINEER_TO_NORMAL:0 OPERATING_SYSTEM:2 ENABLE_SYS_RPC:0 TY_SECURITY_CHIP:0 RELIABLE_TRANSFER:RELIABLE_TRANSFER ENABLE_LAN_ENCRYPTION:1 ENABLE_LAN_LINKAGE:0 ENABLE_LAN_LINKAGE_MASTER:0 ENABLE_LAN_DEV:0 ENABLE_LAN_DEV_MASTER:0 >
+
+[01-01 18:12:15 TUYA Debug][tuya_device.c:207] oem_rtlbn_rnd_switch:1.1.1
+[01-01 18:12:15 TUYA Notice][tuya_device.c:208] firmware compiled at Jan 31 2021 22:17:44
+[01-01 18:12:15 TUYA Notice][simple_flash.c:408] key_addr: 0x1eb000   block_sz 4096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:497] get key:
+0x43 0xed 0xc7 0x14 0xe4 0xe5 0x0 0xa9 0xf6 0x81 0xe6 0x52 0xc5 0x3c 0xe6 0xf6 
+[01-01 18:12:15 TUYA Info][uni_thread.c:205] thread_create name:mf_test,stackDepth:5120,totalstackDepth:18432,priority:4
+
+WIFI initialized
+
+init_thread(55), Available heap 0xe560[01-01 18:12:15 TUYA Notice][tuya_main.c:269] mf_init succ
+[01-01 18:12:15 TUYA Notice][tuya_device.c:119] pConfig = {"sw":{"init_cfg":{"value":39},"ch":[{"bt":{"pin":{"value":5},"lv":{"value":false}},"dpid":{"value":1},"cddpid":{"value":9},"rl":{"pin":{"value":14},"lv":{"value":true}}}],"c_dp":{"value":42},"tch":{"btkm":{"value":0},"dfm":{"value":1}},"c_lock":{"value":41},"dd_dp":{"value":44},"net":{"netnm":{"value":2},"reuse":{"value":true},"zsd_dp":{"value":40},"rsthold":{"value":5},"wfst":{"pin":{"value":0},"lv":{"value":false}},"owmm":{"value":1},"netym":{"value":1}},"r_dp":{"value":43}}}
+[01-01 18:12:15 TUYA Notice][json_config.c:1498] version is null,the json rule is old
+[01-01 18:12:15 TUYA Notice][json_config.c:1367] tled is null
+[01-01 18:12:15 TUYA Notice][json_config.c:489] led_mixed json is null!!
+[01-01 18:12:15 TUYA Notice][json_config.c:815] js_onoff is null
+[01-01 18:12:15 TUYA Notice][json_config.c:930] on_off_config_by_json is null!
+pmu_release_wakelock(PMU_OS);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+pmu_release_wakelock(PMU_DEV_USER_BASE);
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4033] Last reset reason: 4
+[01-01 18:12:16 TUYA Info][uni_thread.c:205] thread_create name:health_monitor,stackDepth:1536,totalstackDepth:19968,priority:5
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4162] serial_no:c482e1a76b2c
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4188] gw_cntl.gw_wsm.stat:1
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4192] gw_cntl.gw_wsm.nc_tp:1
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4193] gw_cntl.gw_wsm.md:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4251] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4252] gw_cntl.gw_if.product_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4253] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:4255] gw_cntl.gw_if.firmware_key:keyqwddxxv8ukxkj, input:keyqwddxxv8ukxkj
+[01-01 18:12:16 TUYA Notice][memory_state.c:259] init cfg is null!!
+[01-01 18:12:16 TUYA Notice][led.c:86] light mode is null!!
+[01-01 18:12:16 TUYA Notice][hw_table.c:42] IO - relay[0]:	pin-14	type high
+[01-01 18:12:16 TUYA Notice][hw_table.c:42] IO - button[0]:	pin-5	type low
+[01-01 18:12:16 TUYA Notice][hw_table.c:67] trig_type:level
+[01-01 18:12:16 TUYA Notice][hw_table.c:72] CH[0],    DPID[1]
+[01-01 18:12:16 TUYA Notice][hw_table.c:42] IO - wifi_stat:	pin-0	type low
+[01-01 18:12:16 TUYA Notice][hw_table.c:87] trig_type:level
+[01-01 18:12:16 TUYA Info][uni_thread.c:205] thread_create name:key_handle,stackDepth:2048,totalstackDepth:22016,priority:5
+[01-01 18:12:16 TUYA Notice][hw_ctrl.c:452] ch sec is null!!
+[01-01 18:12:16 TUYA Err][tuya_cd_timer.c:244] OPRT_INVALID_PARM
+[01-01 18:12:16 TUYA Notice][inch.c:213] cd_time doesn't run !!
+[01-01 18:12:16 TUYA Info][uni_thread.c:205] thread_create name:timer_task,stackDepth:4096,totalstackDepth:26112,priority:3
+[01-01 18:12:16 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:16 TUYA Notice][tuya_cyc_rand_timer.c:760] wd_common_read failed op_ret:-6
+[01-01 18:12:16 TUYA Notice][inch.c:336] inch info is null! this maybe a new product!!
+[01-01 18:12:16 TUYA Notice][tuya_device.c:970] device_init ok  free_mem_size:57312
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+Initializing WIFI ...
+LDO Mode, BD_Info: 0 
+
+LDO Mode, BD_Info: 0 
+
+WIFI initialized
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+Initializing WIFI ...
+LDO Mode, BD_Info: 0 
+
+LDO Mode, BD_Info: 0 
+
+WIFI initialized
+[01-01 18:12:18 TUYA Notice][tuya_device.c:684] wifi stat is 1 
+[01-01 18:12:21 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:26 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:31 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:36 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:41 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:45 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:50 TUYA Notice][tuya_device.c:986] wifi_stat = 1
+[01-01 18:12:55 TUYA Notice][tuya_device.c:986] wifi_stat = 1

@@ -1,0 +1,48 @@
+esphome:
+  name: caldeira
+
+esp8266:
+  board: esp01
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Caldeira Fallback Hotspot"
+    password: "1DWGBXEpW0ol"
+
+captive_portal:
+
+output:
+  - platform: gpio
+    pin: "GPIO0"
+    id: 'caldeira_on1'
+  - platform: gpio
+    pin: "GPIO2"
+    id: 'caldeira_on2'
+  - platform: gpio
+    pin: "GPIO3"
+    id: 'caldeira_on3'
+switch:
+  - platform: output
+    name: "Caldeira1"
+    output: 'caldeira_on1'
+  - platform: output
+    name: "Caldeira2"
+    output: 'caldeira_on2'
+  - platform: output
+    name: "Caldeira3"
+    output: 'caldeira_on3'
+    

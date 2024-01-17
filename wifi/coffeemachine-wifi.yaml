@@ -1,0 +1,67 @@
+esphome:
+  name: coffeemachine
+
+rtl87xx:
+  board: t102-v1.1
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Coffeemachine Fallback Hotspot"
+    password: "ITgagk4luDvt"
+
+captive_portal:
+    
+  
+output:
+  - platform: libretiny_pwm
+    id: output_led_1
+    pin:
+        number: PWM2
+        inverted: true
+
+light:
+  - platform: monochromatic
+    id: light_switch_1
+    output: output_led_1
+
+binary_sensor:
+  - platform: gpio
+    id: binary_switch_1
+    pin:
+      number: 5
+      inverted: true
+      mode: INPUT_PULLUP
+    on_press:
+      then:
+        - switch.toggle: switch_1
+
+switch:
+  - platform: gpio
+    id: switch_1
+    name: Coffeemachine
+    pin:
+        number: PWM0
+        mode: OUTPUT
+    on_turn_on:
+      - light.turn_on: light_switch_1
+    on_turn_off:
+      - light.turn_off: light_switch_1
+
+status_led:
+  pin: 
+    number: PA18
+    inverted: true

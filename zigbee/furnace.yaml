@@ -1,0 +1,35 @@
+esphome:
+  name: furnace-control
+
+esp8266:
+  board: d1_mini
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Furnace-Control Fallback Hotspot"
+    password: "uNMeA3MIekt5"
+
+captive_portal:
+    
+output:
+  - platform: gpio
+    pin: "D8"
+    id: 'furnace_out'
+switch:
+  - platform: output
+    name: "Furnace Output"
+    output: 'furnace_out'    
