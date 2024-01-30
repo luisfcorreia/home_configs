@@ -25,24 +25,12 @@ wifi:
 
 captive_portal:
 
-output:
-  - platform: gpio
-    pin: "GPIO0"
-    id: 'caldeira_on1'
-  - platform: gpio
-    pin: "GPIO2"
-    id: 'caldeira_on2'
-  - platform: gpio
-    pin: "GPIO3"
-    id: 'caldeira_on3'
 switch:
-  - platform: output
-    name: "Caldeira1"
-    output: 'caldeira_on1'
-  - platform: output
-    name: "Caldeira2"
-    output: 'caldeira_on2'
-  - platform: output
-    name: "Caldeira3"
-    output: 'caldeira_on3'
+  - platform: gpio
+    pin: GPIO0
+    name: "Ligar Caldeira"
+
+  - platform: gpio
+    pin: GPIO2
+    name: "Desligar Termostato"
     
