@@ -1,0 +1,77 @@
+esphome:
+  name: office_air_filter
+
+esp8266:
+  board: nodemcuv2
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Office Air Filter"
+    password: "TZqBsCbRqRv0"
+
+captive_portal:
+    
+sensor:
+  - platform: pulse_width
+    pin: D6
+    id: led1
+    name: Air Filter Fan Speed
+    update_interval: 0.25s
+    accuracy_decimals: 0
+    unit_of_measurement: ""
+    icon: mdi:led-outline
+    filters:
+      # The values after multiplied by 1000000 are 0, 20, 100, 320
+      # and correspond to LED being off, low, med, high intensity.
+      # The "pulse_width" sensor sometimes reads non-0 (e.g 221) when
+      # the LED is off which is why 0 (off state) is returned in the
+      # default case.
+      - multiply: 1000000
+      - lambda: !lambda |- 
+          switch (int(x)) {
+            case 20:
+              return 1;
+            case 100:
+              return 2;
+            case 320:
+              return 3;
+            default:
+              return 0;
+          }
+      - max:
+          window_size: 3
+          send_every: 3
+          send_first_at: 1
+      - or:
+        - delta: 0.5
+        - throttle: 60s
+
+output:
+  - platform: gpio
+    pin:
+      number: D5
+      inverted: true  
+      # "Open drain" used so the Wemos does't pull the pin 
+      # up or down when it's not being pressed.
+      mode: OUTPUT_OPEN_DRAIN
+    id: output1
+
+button:
+  - platform: output
+    name: "Air Filter Button"
+    output: output1
+    duration: 100ms    

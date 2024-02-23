@@ -1,0 +1,100 @@
+# adapter from https://github.com/3ative/IKEA-Air-Quality-Sensor/blob/main/ikea_aq_v2.yaml
+
+substitutions:
+  name: "Hall Air Quality"  ## Location & Entity Names (Capitals and Spaces Allowed)
+  ap_id: "Hall Air Quality Fan"  ## Entity ID for the Fan (E.G. IKEA Air Filter)
+  auto_enable: 'hall.air_quality'  ## Home Assistant Entity to Enable Automation
+  af_speeds: '6'   ## Fan Speeds [MUST BE IN QUOTES]
+  pms_low: '40'    ## 2.5µm Count for Fan Off [MUST BE IN QUOTES]
+  pms_high: '400'  ## 2.5µm Count for Fan MAX [MUST BE IN QUOTES]
+
+esphome:
+  name: hall-air-quality
+  platform: ESP8266
+  board: d1_mini
+
+wifi:
+  ssid: ldn
+  password: c0defade69
+
+  ap:
+    ssid: "Hall AQ Fallback Hotspot"
+    password: "1DWzrfYEpW0ol"
+
+api:
+
+ota:
+logger:
+  logs:
+    sensor: none
+    binary_sensor: none
+    homeassistant.binary_sensor: none
+    pm1006: none
+    ccs811: none
+
+## Serial Port for the IKEA Sensor
+uart:
+  - rx_pin: D7
+    # tx_pin: D8
+    baud_rate: 9600
+
+binary_sensor:
+  ## Reads On/Off State from HA
+  - platform: homeassistant
+    entity_id: $auto_enable
+    id: enable_automation
+  
+  ## Use the on-board LED to show "Fan Running"
+  - platform: gpio
+    name: $name Fan
+    id: fan
+    pin:
+      number: D4
+      inverted: true
+
+  ## Brightness Sensor for HA Automations
+  - platform: template
+    name: $name Bright
+    id: bright
+
+sensor:
+  ## IKEA PMS 2.5µg Sensor
+  - platform: pm1006
+    id: aq_sensor
+    pm_2_5:
+      name: $name 2.5µg
+      on_value:
+        - if:
+            condition:
+              - binary_sensor.is_off: enable_automation
+            then:
+              - homeassistant.service:
+                  service: number.set_value
+                  data:
+                    entity_id: $ap_id
+                    value: !lambda |-
+                      auto range = (x - $pms_low) / ($pms_high - $pms_low) * $af_speeds;
+                      auto value = (x < $pms_low) ? 0 : (range > $af_speeds) ? $af_speeds : range;
+                      return ceil(value);
+            else:
+              # If the "$auto_enable" binary sensor is on, set the fan speed to 0
+              - homeassistant.service:
+                  service: number.set_value
+                  data:
+                    entity_id: $ap_id
+                    value: '0'
+  
+  ## The IKEA Light Level Sensor
+  - platform: adc
+    id: light_sensor
+    pin: A0
+    update_interval: 1s
+    ## Check the value and turn On/Off our Binary Sensor
+    on_value:
+      - lambda: !lambda |
+          if (x > 0.01) {
+            id(bright).publish_state(true);
+          } else {
+            id(bright).publish_state(false);
+          }
+
