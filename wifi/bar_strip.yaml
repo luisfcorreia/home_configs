@@ -1,0 +1,41 @@
+esphome:
+  name: bar_light_strip
+
+esp8266:
+  board: d1_mini
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "ldn"
+  password: "c0defade69"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Bar Light Strip Fallback Hotspot"
+    password: "koC7JFUs9kOM"
+
+captive_portal:
+    
+    
+light:
+  - platform: monochromatic
+    name: "Bar Lights"
+    output: output_component1
+
+output:
+  - platform: esp8266_pwm
+    id: output_component1
+    inverted: true
+#    frequency: 200
+    pin: D1    
+        
+ 
